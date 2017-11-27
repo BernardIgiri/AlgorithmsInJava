@@ -2,6 +2,9 @@ package com.github.bernardigiri.AlgorithmsInJava.string;
 
 import java.util.ArrayList;
 
+/**
+ * Simple regex parser with support for the dot and star operators
+ */
 public class MatchRegEx {
 
     public static boolean match(String regex, String target) {
